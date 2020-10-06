@@ -1,68 +1,111 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Boilerplate
 
-## Available Scripts
+## Contents
 
-In the project directory, you can run:
+1. React (v16 - https://github.com/facebook/react)
+2 .Redux (https://github.com/reduxjs/redux)
+3. Redux Saga (https://redux-saga.js.org/)
+4. Prettier (https://github.com/prettier/prettier)
+5. Husky (https://github.com/typicode/husky)
+6. Jest (https://github.com/facebook/jest)
+7. Webpack (v4 - https://github.com/webpack/webpack)
 
-### `yarn start`
+## Download and run
+  
+```javascript
+yarn
+```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+or
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+```javascript
+npm install
+```
 
-### `yarn test`
+## Local Dev
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```javascript
+yarn start
+```
 
-### `yarn build`
+or
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```javascript
+npm run start
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Testing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```javascript
+yarn test
+```
 
-### `yarn eject`
+or
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```javascript
+npm run test
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Testing with updating snapshot
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```javascript
+yarn test:updateSnapshot
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+or
 
-## Learn More
+```javascript
+npm run test:updateSnapshot
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Prettier (Validate linting of both SCSS & JS)
+```javascript
+yarn lint
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+or
 
-### Code Splitting
+```javascript
+npm run lint
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+## Prettier (Fix linting of both SCSS & JS)
+```javascript
+yarn fix
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+or
 
-### Making a Progressive Web App
+```javascript
+npm run fix
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
+## Validate (Link validation, Test status)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+```javascript
+yarn validate
+```
 
-### Deployment
+or
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+```javascript
+npm run validate
+```
 
-### `yarn build` fails to minify
+## Generate build
+```javascript
+yarn build
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+or
+
+
+```javascript
+npm run build
+```
+
+
+## Contributors
+Here (https://github.com/PavanKumarPatruni)
