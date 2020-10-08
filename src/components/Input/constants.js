@@ -1,0 +1,1 @@
+const CARD_NUMBER = 'CARD_NUMBER';

@@ -1,16 +1,13 @@
 import React from 'react';
 
-import Header from '../components/Header';
+import Form from '../components/Form';
 
 import './App.scss';
 
-import Icon from '../assets/images/bg.png';
-
 const App = () => {
   return (
-    <div>
-      <Header />
-      <img src={Icon} alt="ICON" />
+    <div className="container flex flex-center flex-justify-center background">
+      <Form />
     </div>
   );
 };

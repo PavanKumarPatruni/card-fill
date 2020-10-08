@@ -1,0 +1,33 @@
+body {
+  font-family: OpenSans;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p,
+a {
+  margin: 0;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@mixin font-style($font-size, $letter-spacing, $color) {
+  color: $color;
+  font-size: $font-size;
+  letter-spacing: $letter-spacing;
+}

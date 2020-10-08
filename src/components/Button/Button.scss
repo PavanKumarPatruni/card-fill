@@ -1,0 +1,24 @@
+@import '../../styles/index.scss';
+
+.button {
+  background-color: $blue;
+  border: none;
+  cursor: pointer;
+  height: 46px;
+  line-height: 1.71;
+  outline: 0;
+  text-decoration: none;
+
+  &:focus,
+  :active,
+  :hover {
+    box-shadow: 0 2.8px 2.2px rgba(38, 98, 209, 0.034),
+      0 6.7px 5.3px rgba(38, 98, 209, 0.048),
+      0 12.5px 10px rgba(38, 98, 209, 0.06),
+      0 22.3px 17.9px rgba(38, 98, 209, 0.072);
+  }
+
+  &:disabled {
+    background-color: $blue-disabled;
+  }
+}

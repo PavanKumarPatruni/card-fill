@@ -1,0 +1,59 @@
+$font-blocks: 40;
+$base-size: 16;
+
+@mixin generate-font-size() {
+  @for $i from 5 through $font-blocks {
+    $font-value: $i / $base-size;
+
+    .fs-#{$i} {
+      font-size: $font-value + rem;
+    }
+  }
+}
+
+@include generate-font-size();
+
+@font-face {
+  font-family: NotoSansJP;
+  src: url('../assets/fonts/NotoSansJP-Regular.otf');
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url('../assets/fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url('../assets/fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: OpenSans-Light;
+  src: url('../assets/fonts/OpenSans-Light.ttf');
+}
+
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url('../assets/fonts/OpenSans-SemiBold.ttf');
+}
+
+.font-noto {
+  font-family: NotoSansJP;
+}
+
+.font-default {
+  font-family: OpenSans;
+}
+
+.font-bold {
+  font-family: OpenSans-Bold;
+}
+
+.font-light {
+  font-family: OpenSans-Light;
+}
+
+.font-semibold {
+  font-family: OpenSans-SemiBold;
+}
